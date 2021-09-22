@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Login from './components/LoginPage';
+import Main from './components/AppComponents';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,6 +13,7 @@ ReactDOM.render(
        <Switch>
         <Route component={App} path="/" exact />
         <Route component={Login} path="/login"/>
+        <Route component={Main} patth="/id/"/>
       </Switch>
       </BrowserRouter>,
   </React.StrictMode>,
