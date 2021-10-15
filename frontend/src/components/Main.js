@@ -8,6 +8,7 @@ import {
 
 import { Link } from "react-router-dom";
 import './Btn.css';
+import '/.ImageAnimation.css';
 
 const wd = {
     width: '200px',
@@ -25,7 +26,7 @@ function Main(){
                     </Left>
                     <Right>
                         <Image src="https://gurupawar.github.io/portfolio/assets/man-svgrepo-com.svg"
-                        alt="svg"/>
+                        alt="svg" className="bounce-1"/>
                     </Right>
                 </Wrapper>
                 <Link to="/login" style={wd}>
