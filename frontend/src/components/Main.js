@@ -8,7 +8,7 @@ import {
 
 import { Link } from "react-router-dom";
 import './Btn.css';
-import '/.ImageAnimation.css';
+import './ImageAnimation.css';
 
 const wd = {
     width: '200px',
