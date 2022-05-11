@@ -1,0 +1,70 @@
+.header {
+  position: absolute;
+  width: 220px;
+}
+
+.header .proSidebar {
+  height: 100vh;
+}
+  
+.header .proSidebar {
+  width: 100%;
+  min-width: 100%;
+}
+  
+.header .proSidebar.collapsed {
+  width: 80px;
+  min-width: 80px;
+}
+  
+.header .proSidebarInner {
+  background-color: white;
+  box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.15);
+}
+  
+.header .proSidebarInner .proSidebarLayout {
+  overflow-y: hidden;
+}
+  
+.header .proSidebarInner .proSidebarLayout .logotext p {
+  font-size: 20px;
+  padding: 0 20px;
+  color: #000;
+  font-weight: bold;
+}
+  
+.header .proSidebarInner .proSidebarLayout ul {
+  padding: 0 5px;
+}
+  
+.header .proSidebarInner .proSidebarLayout ul .proInnerItem {
+  color: #000;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+  
+.header .proSidebarInner .proSidebarLayout ul .proInnerItem .proIconWrapper {
+  background-color: #fbf4cd;
+  color: #000;
+  border-radius: 3px;
+}
+  
+.header
+  .proSidebarInner
+  .proSidebarLayout
+  ul
+  .proInnerItem
+  .proIconWrapper
+  .proItemContent {
+  color: #000;
+}
+  
+.header .logo {
+  padding: 20px;
+}
+  
+@media (max-width: 1100px) {
+  .header {
+    display: none;
+  }
+}

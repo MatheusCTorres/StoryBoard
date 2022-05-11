@@ -1,0 +1,23 @@
+.section {
+  scroll-snap-align: start;
+  min-block-size: 100vh;
+  scroll-snap-stop: always;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+  
+.section h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 7%;
+  padding-left: 19%;
+}
+  
+.section:nth-of-type(even) {
+  background: #1DB954;
+}
+  
+.section:nth-of-type(odd) {
+  background: #191414;
+}
