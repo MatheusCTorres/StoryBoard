@@ -1,7 +1,7 @@
 import { useState } from "react";
 import clientPromisse from "../lib/mongodb";
 import Link from "next/link";
-import Head from "next/Head";
+import Head from "next/head";
 import { motion } from "framer-motion";
 
 // STYLE

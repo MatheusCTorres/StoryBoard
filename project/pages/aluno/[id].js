@@ -1,7 +1,7 @@
 import Table from "../../components/Table";
 
 // CSS E FRAMEWORKSF
-import styles from "../../styles/navbar/Header.module.css";
+import styles from "../../styles/navBar/Header.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-pro-sidebar/dist/css/styles.css";
 import { motion } from "framer-motion";
